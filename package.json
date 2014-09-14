@@ -1,0 +1,54 @@
+{
+  "name": "neck-server",
+  "description": "Neck server",
+  "version": "0.0.1",
+  "author": "José Moreira <jose.moreira@findhit.com>",
+  "contributors": [
+    {
+      "name": "José Moreira",
+      "email": "jose.moreira@findhit.com"
+    },
+    {
+      "name": "Bruno Casanova",
+      "email": "bruno.casanova@findhit.com"
+    },
+    {
+      "name": "Gabriel Conceição",
+      "email": "gabriel.conceicao@findhit.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neckjs/neck-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neckjs/neck-server/issues"
+  },
+  "dependencies": {
+    "findhit-class": "0.0.3",
+    "findhit-hotplug": "0.0.4",
+    "findhit-promise": "^0.0.1",
+    "findhit-util": "^0.1.0",
+    "neck-head": "^0.0.1",
+    "socket.io": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.3",
+    "sinon": "^1.10.3"
+  },
+  "keywords": [
+    "server",
+    "service",
+    "neck",
+    "findhit"
+  ],
+  "main": "index",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --globals setImmediate,clearImmediate --check-leaks --colors -t 10000 --reporter spec $(find test/* -name '*.test.js')"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "license": "GPL v3"
+}
