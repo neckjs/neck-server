@@ -34,11 +34,11 @@ before(function ( done ) {
 
 describe( "Connection", function () {
 
-    it( "Check if Client instance has been created and linked to Server", function () {
+    describe( "instance checkings", function () {
 
-        console.log( this.server.Clients );
-
-        expect( this.server.Clients ).to.have.length( 1 );
+        it( "Client instance has been created and linked to Server", function () {
+            expect( this.server.Clients ).to.have.length( 1 );
+        });
 
     });
 

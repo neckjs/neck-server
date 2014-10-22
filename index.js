@@ -13,6 +13,6 @@ Server.Interface = {
 };
 
 // Associate all things here :)
-
+require( './lib/web-ui.js' );
 
 module.exports = Server;

@@ -28,6 +28,7 @@
     "bluebird": "^2.3.5",
     "debug": "^2.0.0",
     "engine.io": "^1.4.1",
+    "express": "^4.9.7",
     "findhit-class": ">=0.1.0",
     "findhit-evented": ">=0.0.3",
     "findhit-hotplug": ">=0.0.4",
